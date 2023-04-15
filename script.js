@@ -6,8 +6,10 @@ function palindrome(str){
 		let a=str.charAt(i).toLowerCase();
 		let b=str.charAt(j).toLowerCase();
 		if(a!=b) return false;
+		else{
 		i++;
 		j--;
+		}
 	}
 	return true;
   
